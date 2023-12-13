@@ -1,0 +1,53 @@
+.ball {
+	position: absolute;
+	fill: radial-gradient(
+		82.3% 82.3% at 27.25% 26.5%,
+		rgba(236, 208, 255, 0.64) 0%,
+		rgba(161, 93, 207, 0.24) 59.67%,
+		rgba(118, 49, 164, 0.21) 78.59%,
+		rgba(86, 24, 128, 0.23) 100%
+	);
+	filter: drop-shadow(3px 6px 27px rgba(177, 118, 217, 0.25)) blur(5px);
+	backdrop-filter: blur(2px);
+}
+
+.red-ball {
+	background: url(../../images/red-ball.svg);
+	background-size: 100%;
+}
+
+.red-ball-big {
+	top: 83px;
+	left: 36%;
+	block-size: 83px;
+	inline-size: 83px;
+}
+
+.red-ball-small {
+	top: 547px;
+	left: 59%;
+	block-size: 28px;
+	inline-size: 28px;
+}
+
+.purple-ball {
+	position: absolute;
+	background: url(../../images/purple-ball.svg);
+	top: 0;
+	left: 60%;
+	block-size: 60px;
+	inline-size: 60px;
+	background-size: 125%;
+}
+
+.purple-light {
+	position: absolute;
+	top: -154px;
+	left: 42%;
+	block-size: 259px;
+	inline-size: 159px;
+	border-radius: 50%;
+	opacity: 0.5;
+	background: #833ab4;
+	filter: blur(196px);
+}

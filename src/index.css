@@ -1,0 +1,13 @@
+@import url('./styles/base/background.css');
+@import url('./styles/base/fonts.css');
+@import url('./styles/base/reset.css');
+
+@import url('./styles/layout/balls.css');
+
+@import url('./styles/layout/header.css');
+
+@import url('./styles/layout/main.css');
+
+@import url('./styles/layout/footer.css');
+
+@import url('./styles/base/media.css');

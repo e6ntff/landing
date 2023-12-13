@@ -1,0 +1,131 @@
+.main {
+	display: flex;
+	flex-direction: column;
+	gap: 60px;
+}
+
+.main__main {
+	max-inline-size: 362px;
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
+
+.container {
+	display: flex;
+	justify-content: space-between;
+	margin-block-start: 90px;
+}
+
+.main__main_title {
+	color: #e4e5ea;
+	font-size: clamp(2.25rem, 2.0357rem + 1.0714vw, 3rem);
+	font-weight: 400;
+}
+
+.main__main_title-decorated {
+	font-weight: 900;
+	background: linear-gradient(90deg, #fcb045, #ff3f78);
+	background-clip: text;
+	color: #0000;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: #0000;
+}
+
+.main__main_description {
+	max-inline-size: 275px;
+	color: #e4e5ea;
+	font-family: Montserrat;
+	font-size: 18px;
+	font-weight: 400;
+}
+
+.main__other {
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+	text-align: right;
+	max-inline-size: 330px;
+}
+
+.main__other_title {
+	background: var(
+		--gradient,
+		linear-gradient(90deg, #fcb045 36.99%, #fd1d1d 100%)
+	);
+	background-clip: text;
+	-webkit-background-clip: text;
+	max-block-size: 291px;
+	color: #e4e5ea;
+	font-size: 18px;
+	font-weight: 500;
+}
+
+.main__other_title-decorated {
+	color: #0000;
+	-webkit-text-fill-color: #0000;
+	font-size: 18px;
+	font-weight: 700;
+	letter-spacing: 0.9px;
+	text-transform: uppercase;
+}
+
+.main__other_grid {
+	display: grid;
+	grid-template: 1fr 1fr / 1fr 1fr;
+	gap: 30px;
+}
+
+.main__other_grid-element {
+	display: flex;
+	flex-direction: column;
+	gap: 6px;
+}
+
+.main__other_grid-element-title {
+	color: #e4e5ea;
+	font-size: 18px;
+	font-weight: 500;
+	letter-spacing: 0.9px;
+	text-transform: uppercase;
+}
+
+.main__other_grid-element-description {
+	color: #e4e5ea;
+	font-family: Montserrat;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.main__other_grid-element-description-short {
+	display: none;
+	position: relative;
+	color: #e4e5ea;
+	font-family: Montserrat;
+	font-size: 13px;
+	margin-inline-start: 15px;
+	font-weight: 400;
+	letter-spacing: 0.65px;
+	text-transform: uppercase;
+}
+
+.main__other_grid-element-description-short::before {
+	content: "";
+	position: absolute;
+	inset: 7.5px -15px;
+	block-size: 1px;
+	inline-size: 10px;
+	background: linear-gradient(90deg, #fcb045 36.99%, #fd1d1d 100%);
+}
+
+.main__button {
+	justify-self: flex-end;
+	max-inline-size: 262px;
+	margin-inline-start: auto;
+	color: #e4e5ea;
+	text-align: center;
+	font-size: 16px;
+	font-weight: 500;
+	background: #4077f3;
+	padding: 21px 34px;
+}

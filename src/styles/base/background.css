@@ -1,0 +1,12 @@
+html {
+	block-size: 100vh;
+}
+
+.page {
+	padding: 46px clamp(0.9375rem, -1.4732rem + 12.0536vw, 9.375rem) 0;
+	block-size: 100px;
+	background: #0e1014;
+	font-family: Inter;
+	font-style: normal;
+	line-height: normal;
+}
